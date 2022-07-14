@@ -1,7 +1,7 @@
 {
   "name": "RubberDucking",
   "version": "0.1.0",
-  "description": "Rubber ducking extension",
+  "description": "Your digital rubber duck companion",
   "permissions": ["storage", "tabs"],
   "host_permissions": ["https://*.youtube.com/*"],
   "background": {
@@ -26,9 +26,9 @@
   ],
   "action": {
     "default_icon": {
-      "16": "assets/ext-icon.png",
-      "24": "assets/ext-icon.png",
-      "32": "assets/ext-icon.png"
+      "16": "assets/duck-icon.png",
+      "24": "assets/duck-icon.png",
+      "32": "assets/duck-icon.png"
     },
     "default_title": "Rubber Duck",
     "default_popup": "popup.html"

@@ -1,10 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300;400;700&display=swap');
+
+input:focus{
+    outline: none;
+}
+
 .container {
-  width: 280px;
-  color: #314d3e;
+  width: 500px;
+  /* height: 800px; */
+  color: #363636;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+  width: 100%;
 }
 
 .title {
   font-size: 14px;
   font-weight: bold;
   padding: 8px;
+  font-weight: 300;
+  color: #515151;
+  text-align: left;
+}
+.help {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+}
+.help > p {
+  text-align: end;
+  font-size: 16px;
+  background-image: url("./assets/bubble.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  /* background-color: #f2f0f0;
+  border-radius: 36px; */
+  padding: 15px 18px;
+  /* width: 300px; */
+  margin-bottom: 0;
+}
+.duck {
+  background-image: url(./assets/1.png);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  /* width: 200px; */
+  height: 300px;
+}
+.introduction {
+  text-align: center;
+  font-size: 24px;
+}
+.introduction h3 {
+  /* font-weight: 300; */
+  font-family: 'Bungee Shade', cursive;
+}
+input {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 16px;
+  margin-top: 8px;
+  color: #363636;
+  font-family: 'Montserrat', sans-serif;
 }
