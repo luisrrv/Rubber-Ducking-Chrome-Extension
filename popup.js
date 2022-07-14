@@ -2,7 +2,7 @@ const duckDiv = document.querySelector(".duck");
 const introduction = document.querySelector(".introduction");
 
 const showDuckImg = () => {
-  duckDiv.style.backgroundImage = `url(./assets/${Math.floor(Math.random() * 6) + 1}.png)`
+  duckDiv.style.backgroundImage = `url(./assets/${Math.floor(Math.random() * 10) + 1}.png)`
 };
 
 const duckName = () => {
@@ -18,6 +18,14 @@ const duckName = () => {
     return "Joker Rubber Duck"
   } else if (duckDiv.style.backgroundImage === `url("./assets/6.png")`) {
     return "Ryu Rubber Duck"
+  } else if (duckDiv.style.backgroundImage === `url("./assets/7.png")`) {
+    return "Al Duckone"
+  } else if (duckDiv.style.backgroundImage === `url("./assets/8.png")`) {
+    return "Gandalf Rubber Duck"
+  } else if (duckDiv.style.backgroundImage === `url("./assets/9.png")`) {
+    return "Helmet Rubber Duck"
+  } else if (duckDiv.style.backgroundImage === `url("./assets/10.png")`) {
+    return "Sonic Rubber Duck"
   } else {
     return ""
   }

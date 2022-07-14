@@ -74,13 +74,13 @@ form {
   padding: 12px 16px;
   background-color: #fafafa;
   border: 1px solid #e5e5e5;
-  border-radius: 10px;
+  border-radius: 16px;
   color: #363636;
   font-family: 'Montserrat', sans-serif;
   /* box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px; */
 }
 .search-btn {
-  border-radius: 10px;
+  border-radius: 16px;
   border: none;
   border: 1px solid #2C89EB;
   font-family: 'Montserrat', sans-serif;
