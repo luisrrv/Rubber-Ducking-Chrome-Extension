@@ -5,6 +5,9 @@
 ## "Rubber duck debugging" is a software engineering method of debugging the code by trying to explain it line-by-line to an inanimate object. This method can obviously be used not only in programming but anywhere you could imagine. The key here is to give a thorough description of your problem, question or anything else that is wracking your brain.
 ## The Ducks will always be here to help! 🐤
 
+# Try it yourself! ⬇️
+## https://chrome.google.com/webstore/detail/rubberducking/ilnajmkjbglgobggkhahkpgomnjjegpe
+
 <p float="left">
   <img src="https://user-images.githubusercontent.com/69304255/179136263-41a7ff0e-6109-402f-822e-8f98bad6007d.png" width="800" />
   <img src="https://user-images.githubusercontent.com/69304255/179136268-a4c23e4f-fbfc-44de-bd26-f3f53e9a2661.png" width="800" /> 
